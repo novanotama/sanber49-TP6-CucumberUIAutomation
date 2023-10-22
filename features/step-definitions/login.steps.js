@@ -19,4 +19,3 @@ When(/^I login with email (.+) and password (.+)$/, async (email, password) => {
 Then(/^I should see dashboard page$/, async () => {
     await expect(browser).toHaveUrlContaining('dashboard');
 });
-

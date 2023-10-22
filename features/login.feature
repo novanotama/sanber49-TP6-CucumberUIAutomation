@@ -8,4 +8,3 @@ Feature: User Login
     Examples:
       | email             | password    |
       | novanotama@ex.com | 123adsfadf@ |
-   
